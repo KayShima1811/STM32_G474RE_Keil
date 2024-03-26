@@ -2164,6 +2164,6 @@ int main(void)
  for(;;)
  {
   GPIO_Toggle(((GPIO_TypeDef *) (((0x40000000UL) + 0x08000000UL) + 0x0000UL)),5U);
-  Delay_ms(1000);
+  Delay_ms(500);
  }
 }

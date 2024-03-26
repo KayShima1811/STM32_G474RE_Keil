@@ -14,6 +14,6 @@ int main(void)
 	for(;;)
 	{
 		GPIO_Toggle(GPIOA,PIN_5);
-		Delay_ms(1000);
+		Delay_ms(500);
 	}
 }

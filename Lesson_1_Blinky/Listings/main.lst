@@ -69,7 +69,7 @@ main:
 .Ltmp1:
 	.loc	4 16 3 is_stmt 1                @ main.c:16:3
 	bl	GPIO_Toggle
-	mov.w	r0, #1000
+	mov.w	r0, #500
 	.loc	4 17 3                          @ main.c:17:3
 	bl	Delay_ms
 .Ltmp2:
